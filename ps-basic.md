@@ -1,6 +1,7 @@
 Poweshell Basic
 -------------------
 
+```
     pwsh
     
     $PSVersionTable.PSVersion
@@ -12,8 +13,9 @@ Poweshell Basic
     Install-Module -Name Az -AllowClobber -Force
     
     Get-InstalledModule -Name Az -AllVersions
+```    
     
-```
+```powershell
 function Uninstall-AzModule {
   [CmdletBinding(SupportsShouldProcess)]
   param(
@@ -107,7 +109,7 @@ function Uninstall-AzModule {
 }
 ```
 
-```
+```powershell
 $Modules = Get-InstalledModule -Name Az -AllVersions | 
     Sort-Object -Property Version -Descending | 
         Select-Object -Skip 1
