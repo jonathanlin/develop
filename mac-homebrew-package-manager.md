@@ -1,7 +1,7 @@
 install homebrew (https://brew.sh/) (https://docs.brew.sh/)
 ----------------
 
-```
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
