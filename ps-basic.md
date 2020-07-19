@@ -1,9 +1,13 @@
 Poweshell Basic
 -------------------
 
-```
+
+```shell
     pwsh
-    
+```
+
+check version, isntalled modules
+```
     $PSVersionTable.PSVersion
     
     get-host
