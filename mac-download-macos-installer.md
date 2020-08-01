@@ -5,7 +5,7 @@ open "x-apple.systempreferences:com.apple.preferences.softwareupdate?installMajo
 macOS catalina patcher - install catalina 10.15.x on unsupported mac
 http://dosdude1.com/catalina/
 
-[macos big surf 11 on unsupported Macs](https://parrotgeek.com/bigsur/)
+[macos big surf 11 on unsupported Macs](https://parrotgeek.com/bigsur/) https://github.com/barrykn/big-sur-micropatcher
 
 - Open and install the 11.0b2 installer package normally onto your computer (this won't actually install the OS). You can delete it if you need the space back.
 - Plug in the USB flash drive.
