@@ -20,3 +20,15 @@ http://dosdude1.com/catalina/
 - Eject your flash drive and boot it on the unsupported Mac (by holding the option key at boot and selecting it)
 - Install macOS normally
 - You're done!
+
+https://support.apple.com/en-us/HT201372
+
+$sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+
+Big Sur beta
+$sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --nointeraction --downloadassets
+
+(We assume this will be the correct createinstallmedia code for the current beta).
+
+Catalina
+$sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
