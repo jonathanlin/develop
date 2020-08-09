@@ -26,9 +26,11 @@ https://support.apple.com/en-us/HT201372
 `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 
 Big Sur beta
+
 `sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --nointeraction --downloadassets`
 
 (We assume this will be the correct createinstallmedia code for the current beta).
 
 Catalina
+
 `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
