@@ -77,7 +77,15 @@ then use normal flow to push your code
 	$ git commit -m "your comments"
 	$ git push
 
+'''
+~/.ssh	drwxr-xr-x	chmod go-w ~/.ssh
+~/.ssh/id_rsa	-rw-------	chmod go= ~/.ssh/id_rsa
+~/.ssh/id_rsa.pub	-rw-r--r--	chmod go=r ~/.ssh/id_rsa.pub
+~/.ssh/config	-rw-r--r--	chmod go=r ~/.ssh/config
+'''
+
 
 Another related article in Chinese
 
 1. http://4simple.github.com/docs/multipleSSHkeys/
+2. http://alblue.bandlem.com/2005/08/howto-ssh-logins-using-keys.html
