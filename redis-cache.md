@@ -1,0 +1,2 @@
+- powershell stackexchange.redis (https://www.powershellgallery.com/packages/Saritasa.Redis/1.2.0/Content/Saritasa.Redis.psm1)
+- 
