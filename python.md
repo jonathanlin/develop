@@ -1,0 +1,4 @@
+- kodi m3u8 (https://github.com/globocom/m3u8) (https://www.microeco.net/9215.html)
+- python selenium (https://pythonbasics.org/selenium-screenshot/#:~:text=Screenshots%20of%20webpages%20can%20be,is%20loaded%2C%20take%20the%20screenshot.)
+- pandas dataframe
+  - panadas group by (https://www.tutorialspoint.com/python_pandas/python_pandas_groupby.htm)
