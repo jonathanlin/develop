@@ -77,12 +77,25 @@ then use normal flow to push your code
 	$ git commit -m "your comments"
 	$ git push
 
-'''
-~/.ssh	drwxr-xr-x	chmod go-w ~/.ssh
-~/.ssh/id_rsa	-rw-------	chmod go= ~/.ssh/id_rsa
-~/.ssh/id_rsa.pub	-rw-r--r--	chmod go=r ~/.ssh/id_rsa.pub
-~/.ssh/config	-rw-r--r--	chmod go=r ~/.ssh/config
-'''
+
+
+Show git branches ordered by latest commit. Also by name and date.
+By commit hash
+``` bash
+	git for-each-ref --sort=-committerdate refs/heads/
+```
+
+By name, date.
+``` bash
+	git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)'
+```
+
+ssh private key permission check
+	.ssh	drwxr-xr-x	chmod go-w ~/.ssh
+	.ssh/id_rsa	-rw-------	chmod go= ~/.ssh/id_rsa
+	.ssh/id_rsa.pub	-rw-r--r--	chmod go=r ~/.ssh/id_rsa.pub
+	.ssh/config	-rw-r--r--	chmod go=r ~/.ssh/config
+
 
 
 Another related article in Chinese
