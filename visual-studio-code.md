@@ -1,0 +1,1 @@
+- multiple root workspace (https://code.visualstudio.com/docs/editor/multi-root-workspaces)
