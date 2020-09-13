@@ -1,0 +1,2 @@
+- selenium + chromedrive take a screen shot (https://stackoverflow.com/questions/41721734/take-screenshot-of-full-page-with-selenium-python-with-chromedriver)
+- 
