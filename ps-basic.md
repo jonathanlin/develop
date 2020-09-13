@@ -122,3 +122,5 @@ $Modules | ForEach-Object {Uninstall-AzModule -Name $_.Name -Version $_.Version}
 Uninstall-AzModule -Name Az -Version 1.8.0
 
 ```
+
+- list azure app service outbound ip address (https://gallery.technet.microsoft.com/scriptcenter/List-App-Service-web-apps-b4a0bf79)
