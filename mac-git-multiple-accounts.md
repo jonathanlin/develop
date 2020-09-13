@@ -89,13 +89,26 @@ By name, date.
 ``` bash
 	git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)'
 ```
+Get a list of existing remote branches
+``` bash
+git fetch origin
+```
+
+Checkout the branch from that branch
+``` bash
+git checkout -b branch_name origin/branch_name
+
+git pull origin branch_name
+git push origin branch_name  # yields 'Everything up-to-date'
+```
 
 ssh private key permission check
-	.ssh	drwxr-xr-x	chmod go-w ~/.ssh
+``` bash
+.ssh	drwxr-xr-x	chmod go-w ~/.ssh
 	.ssh/id_rsa	-rw-------	chmod go= ~/.ssh/id_rsa
 	.ssh/id_rsa.pub	-rw-r--r--	chmod go=r ~/.ssh/id_rsa.pub
 	.ssh/config	-rw-r--r--	chmod go=r ~/.ssh/config
-
+```
 
 
 Another related article in Chinese
