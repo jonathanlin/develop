@@ -1,2 +1,2 @@
 - powershell stackexchange.redis (https://www.powershellgallery.com/packages/Saritasa.Redis/1.2.0/Content/Saritasa.Redis.psm1)
-- 
+- stackexchange keys count (https://stackoverflow.com/questions/41514786/how-can-i-get-a-key-count-for-stackexchange-redis)
