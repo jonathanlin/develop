@@ -124,3 +124,4 @@ Uninstall-AzModule -Name Az -Version 1.8.0
 ```
 
 - list azure app service outbound ip address (https://gallery.technet.microsoft.com/scriptcenter/List-App-Service-web-apps-b4a0bf79)
+- azure app serice cheatsheet (http://microsoftazurewebsitescheatsheet.info/#)
