@@ -8,7 +8,12 @@ Mac Finder show hidden files - Command+Shift+Dot.
 
 show process info from terminal
 ``` bash
+
 top
 htop
 ps -e
+kill [pid]
+ps -ef 
+man ps
+
 ```
