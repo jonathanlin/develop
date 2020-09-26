@@ -15,5 +15,5 @@ ps -e
 kill [pid]
 ps -ef 
 man ps
-
+ps -e -o "uid pid pcpu pmem wq comm" | grep 501[uid]
 ```
