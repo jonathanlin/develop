@@ -135,6 +135,10 @@ To make Pageant automatically run and load keys at startup:
 - Click on the shortcut link and check that Pageant has started and has loaded your keys
 ```
 
+# submodule/subtree
+- https://confluence.atlassian.com/sourcetreekb/adding-a-submodule-subtree-with-sourcetree-785332086.html
+
+
 Another related article in Chinese
 
 1. http://4simple.github.com/docs/multipleSSHkeys/
