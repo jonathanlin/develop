@@ -111,6 +111,11 @@ ssh private key permission check
 ```
 
 
+windows git could use 'pageant' from putty
+Add system variable
+- GIT_SSH C:\ProgramData\chocolatey\lib\putty.portable\tools\PLINK.EXE
+
+
 Another related article in Chinese
 
 1. http://4simple.github.com/docs/multipleSSHkeys/
