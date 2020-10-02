@@ -1,3 +1,4 @@
+# ASP.Net MVC
 ```
 <system.web>
     <customErrors mode="Off" />
@@ -7,3 +8,6 @@
 
 
 ```
+
+# Balzor
+- https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
