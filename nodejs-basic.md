@@ -6,3 +6,21 @@ Also note that LTS versions of node (e.g. node@10) are keg-only and must either 
 ``` bash
 echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.bashrc
 ```
+
+# nvm (https://nodejs.org/download/release)
+- https://github.com/coreybutler/nvm-windows
+  - nvm install <version>
+  - nvm list available
+  - nvm list
+  - node -v
+  - nvm use <version>
+- https://github.com/nvm-sh/nvm
+
+# npm install
+```
+npm install --silent
+
+npm install --no-optional ###prevents this warning
+
+npm install --loglevel=error
+```
